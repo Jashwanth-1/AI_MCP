@@ -1,0 +1,21 @@
+[project]
+name = "firstmcpserver"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "asyncpg>=0.30.0",
+    "chainlit>=2.7.1.1",
+    "dotenv>=0.9.9",
+    "fastapi>=0.116.1",
+    "google-auth>=2.40.3",
+    "google-cloud-storage>=3.3.0",
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.13.0",
+    "nest-asyncio>=1.6.0",
+    "openai>=1.99.9",
+    "pyodbc>=5.2.0",
+    "requests>=2.32.4",
+    "sqlalchemy>=2.0.43",
+]
